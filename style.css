@@ -1,0 +1,419 @@
+* {
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+    text-decoration: none;
+    padding: 0;
+}
+
+.center {
+    text-align:center;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #541554;
+    position: fixed;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar img {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 14px 16px;
+
+}
+
+.fa-bars{
+    padding: 25px 45px;
+}
+
+.container {
+     background-color: #541554;
+}
+
+.body {
+    margin: 0;
+    width: 100%;
+}
+
+.first-box {
+    padding-top: 70px;
+    width: 100%;
+}
+
+.box {
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.padding {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.text-top {
+    font-size: 43px;
+    color:white;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+    letter-spacing: -3.3px;
+}
+
+.yellow {
+    color: orange;
+}
+
+.text-top-bottom {
+    color:white;
+    text-align: center;
+    font-size: 16px;
+}
+
+.register-correo {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    color: #541554;
+    font-weight: bold;
+}
+
+.register-google{
+    display:flex;
+    align-items: center;
+    background-color: rgb(64, 179, 255);
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.register-google img{
+    margin-left: 5px;
+}
+
+.register-google p{
+    margin-left: 40px;
+}
+
+.video {
+    height: 100%;
+    width: 100%;
+    margin-top: 40px;
+
+}
+
+.second-box {
+    background-color: #F4EDE4;
+    padding-bottom: 40px;
+}
+
+.second-title {
+    padding-top: 30px;
+}
+
+.sponsors-title {
+    width: 300px;
+}
+
+.sponsors {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-articles {
+    margin-top: 70px;
+}
+
+.first-img {
+    width:75%;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+
+.article-p {
+    text-justify: left;
+    line-height: 30px;
+}
+
+.article-title {
+    font-weight: bold;
+    font-size: 24px;
+    text-justify: left;
+    line-height: 30px;
+}
+
+.links {
+    color:#1a75ff;
+    text-decoration: none;
+}
+
+.third-box {
+    background-color: white;
+    margin-top: -24px; 
+}
+
+.third-title {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+    padding-top: 60px;
+}
+
+.third-p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.boton-slack {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #541554;
+    border-radius: 5px;
+    color: white;
+    width: 385px;
+    height: 50px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.button-team{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #541554;
+    width: 385px;
+    height: 50px;
+    border-style: solid;
+    border-color: #541554;
+    margin-left: 20px;
+    border-width: 1px;
+    font-weight: bold;
+}
+
+
+.percentage-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.percentage-box p {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+}
+
+.percentage {
+    font-size: 40px;
+    font-weight: bold;
+    color: #611F69;
+    margin: 10px;
+}
+
+.percentage-p {
+    font-size: 12px;
+    padding-top: -50px;
+}
+
+.video{
+    margin-top: 20px;
+}
+
+.quote {
+    font-style: italic;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 300px;
+}
+
+.quote-name{
+    font-weight: bold;
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+
+.quote-name p{
+    margin-bottom: 3px;
+    margin-left: 10px;
+}
+
+.bottom{
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 12px;
+}
+
+
+.function {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color: #F4EDE4;
+}
+
+.function h1{
+    text-align: center;
+}
+
+.function-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.function-text{
+    margin-left: 14px;
+}
+
+.function-ancord{
+    margin-left: 14px;
+    margin-top: 40px;
+}
+
+.fa-circle{
+    color: grey;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.fa-arrow-right{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.circle{
+    color: #611F69;
+}
+
+.free{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    color: #541554;
+    font-weight: bold;
+}
+
+.team{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #541554;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.fifth-article {
+    background-color: white;
+}
+
+.background-article {
+    background-color: #541554;
+    height: 350px;
+    clip-path: ellipse(100% 100% at center top);
+}
+
+.fifth-article-title {
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.boxwhite{
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    min-height: 420px;
+    flex-direction: column;
+    border-bottom: none;
+    max-width: 285px;
+}
+
+.boxwhite a{
+    text-decoration: none;
+    color: #4585B7;
+}
+
+.fqa {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+
+.fqa-box {
+    text-align: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.fqa-box li{
+    list-style-type: none;
+    padding-top: 15px;
+}
+
+.contact-box {
+    list-style-type: none;
+}
+
+.contact-box li {
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.icon-footer {
+    width: 25%;
+}
+
+.social-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-size: 20px;
+
+}
+
+footer {
+    color:grey;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.contact-box i {
+    padding: 5px;
+}
